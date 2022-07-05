@@ -151,8 +151,48 @@ main {
 }
 
 @media only screen and (min-width: 1000px) {
-  .container {
-    width: 500px;
+  main {
+    header {
+      height: 250px;
+
+      .header-bg {
+        img {
+          height: 250px;
+        }
+      }
+
+      .container {
+        width: 700px;
+
+        .header-todo {
+          padding-top: 50px;
+
+          &-name {
+            h1 {
+              font-size: 2rem;
+            }
+          }
+        }
+
+        .todo-list {
+          padding: 25px 0px 25px 10px;
+        }
+
+        .todo-task {
+          padding: 25px 0px 25px 10px;
+        }
+
+        .todo-checkitems {
+          padding: 25px 20px 25px 20px;
+        }
+
+        .todo-footer {
+          .todo-footer-one {
+            padding: 25px 0px 25px 0px;
+          }
+        }
+      }
+    }
   }
 }
 
